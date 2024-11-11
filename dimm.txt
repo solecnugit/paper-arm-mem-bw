@@ -1,0 +1,1144 @@
+# dmidecode 3.2
+Getting SMBIOS data from sysfs.
+SMBIOS 3.4.0 present.
+# SMBIOS implementations newer than version 3.2.0 are not
+# fully supported by this version of dmidecode.
+
+Handle 0x0043, DMI type 16, 23 bytes
+Physical Memory Array
+	Location: System Board Or Motherboard
+	Use: System Memory
+	Error Correction Type: Multi-bit ECC
+	Maximum Capacity: 4 TB
+	Error Information Handle: No Error
+	Number Of Devices: 16
+
+Handle 0x0049, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0043
+	Error Information Handle: No Error
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 16384 MB
+	Form Factor: DIMM
+	Set: None
+	Locator: CPU0_C0D0
+	Bank Locator: CPU0MCU0C0D0
+	Type: DDR4
+	Type Detail: Registered (Buffered)
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: H0I200022251760C09
+	Asset Tag: 2222               
+	Part Number: M393A2K43DB3-CWE     
+	Rank: 2
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.14 V
+	Maximum Voltage: 1.26 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: None
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 16 GB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x0051, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0043
+	Error Information Handle: 0x0052
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: DIMM
+	Set: None
+	Locator: CPU0_C0D1
+	Bank Locator: CPU0MCU0C0D1
+	Type: Unknown
+	Type Detail: Unknown
+	Speed: Unknown
+	Manufacturer: Array 1 Manufacturer 2
+	Serial Number: Array 1 Serial Number 2
+	Asset Tag: Array 1 Asset Tag 2
+	Part Number: Array 1 Part Number 2
+	Rank: Unknown
+	Configured Memory Speed: Unknown
+	Minimum Voltage: Unknown
+	Maximum Voltage: Unknown
+	Configured Voltage: Unknown
+	Memory Technology: Unknown
+	Memory Operating Mode Capability: Unknown
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Unknown
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: None
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x0053, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0043
+	Error Information Handle: No Error
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 16384 MB
+	Form Factor: DIMM
+	Set: None
+	Locator: CPU0_C1D0
+	Bank Locator: CPU0MCU1C1D0
+	Type: DDR4
+	Type Detail: Registered (Buffered)
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: H0I20002225176114D
+	Asset Tag: 2222               
+	Part Number: M393A2K43DB3-CWE     
+	Rank: 2
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.14 V
+	Maximum Voltage: 1.26 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: None
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 16 GB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x0055, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0043
+	Error Information Handle: 0x0056
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: DIMM
+	Set: None
+	Locator: CPU0_C1D1
+	Bank Locator: CPU0MCU1C1D1
+	Type: Unknown
+	Type Detail: Unknown
+	Speed: Unknown
+	Manufacturer: Array 1 Manufacturer 4
+	Serial Number: Array 1 Serial Number 4
+	Asset Tag: Array 1 Asset Tag 4
+	Part Number: Array 1 Part Number 4
+	Rank: Unknown
+	Configured Memory Speed: Unknown
+	Minimum Voltage: Unknown
+	Maximum Voltage: Unknown
+	Configured Voltage: Unknown
+	Memory Technology: Unknown
+	Memory Operating Mode Capability: Unknown
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Unknown
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: None
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x0057, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0043
+	Error Information Handle: No Error
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 16384 MB
+	Form Factor: DIMM
+	Set: None
+	Locator: CPU0_C2D0
+	Bank Locator: CPU0MCU2C2D0
+	Type: DDR4
+	Type Detail: Registered (Buffered)
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: H0JA00013847DC9014
+	Asset Tag: 2138               
+	Part Number: M393A2K43DB3-CWE     
+	Rank: 2
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.14 V
+	Maximum Voltage: 1.26 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: None
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 16 GB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x0059, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0043
+	Error Information Handle: 0x0060
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: DIMM
+	Set: None
+	Locator: CPU0_C2D1
+	Bank Locator: CPU0MCU2C2D1
+	Type: Unknown
+	Type Detail: Unknown
+	Speed: Unknown
+	Manufacturer: Array 1 Manufacturer 6
+	Serial Number: Array 1 Serial Number 6
+	Asset Tag: Array 1 Asset Tag 6
+	Part Number: Array 1 Part Number 6
+	Rank: Unknown
+	Configured Memory Speed: Unknown
+	Minimum Voltage: Unknown
+	Maximum Voltage: Unknown
+	Configured Voltage: Unknown
+	Memory Technology: Unknown
+	Memory Operating Mode Capability: Unknown
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Unknown
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: None
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x0061, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0043
+	Error Information Handle: No Error
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 16384 MB
+	Form Factor: DIMM
+	Set: None
+	Locator: CPU0_C3D0
+	Bank Locator: CPU0MCU3C3D0
+	Type: DDR4
+	Type Detail: Registered (Buffered)
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: H0JA00013847DC9018
+	Asset Tag: 2138               
+	Part Number: M393A2K43DB3-CWE     
+	Rank: 2
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.14 V
+	Maximum Voltage: 1.26 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: None
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 16 GB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x0063, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0043
+	Error Information Handle: 0x0064
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: DIMM
+	Set: None
+	Locator: CPU0_C3D1
+	Bank Locator: CPU0MCU3C3D1
+	Type: Unknown
+	Type Detail: Unknown
+	Speed: Unknown
+	Manufacturer: Array 1 Manufacturer 8
+	Serial Number: Array 1 Serial Number 8
+	Asset Tag: Array 1 Asset Tag 8
+	Part Number: Array 1 Part Number 8
+	Rank: Unknown
+	Configured Memory Speed: Unknown
+	Minimum Voltage: Unknown
+	Maximum Voltage: Unknown
+	Configured Voltage: Unknown
+	Memory Technology: Unknown
+	Memory Operating Mode Capability: Unknown
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Unknown
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: None
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x0065, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0043
+	Error Information Handle: No Error
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 16384 MB
+	Form Factor: DIMM
+	Set: None
+	Locator: CPU0_C4D0
+	Bank Locator: CPU0MCU4C4D0
+	Type: DDR4
+	Type Detail: Registered (Buffered)
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: H0I2000222517614DE
+	Asset Tag: 2222               
+	Part Number: M393A2K43DB3-CWE     
+	Rank: 2
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.14 V
+	Maximum Voltage: 1.26 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: None
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 16 GB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x0067, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0043
+	Error Information Handle: 0x0068
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: DIMM
+	Set: None
+	Locator: CPU0_C4D1
+	Bank Locator: CPU0MCU4C4D1
+	Type: Unknown
+	Type Detail: Unknown
+	Speed: Unknown
+	Manufacturer: Array 1 Manufacturer 10
+	Serial Number: Array 1 Serial Number 10
+	Asset Tag: Array 1 Asset Tag 10
+	Part Number: Array 1 Part Number 10
+	Rank: Unknown
+	Configured Memory Speed: Unknown
+	Minimum Voltage: Unknown
+	Maximum Voltage: Unknown
+	Configured Voltage: Unknown
+	Memory Technology: Unknown
+	Memory Operating Mode Capability: Unknown
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Unknown
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: None
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x0069, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0043
+	Error Information Handle: No Error
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 16384 MB
+	Form Factor: DIMM
+	Set: None
+	Locator: CPU0_C5D0
+	Bank Locator: CPU0MCU5C5D0
+	Type: DDR4
+	Type Detail: Registered (Buffered)
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: H0I200022251760F10
+	Asset Tag: 2222                
+	Part Number: M393A2K43DB3-CWE      
+	Rank: 2
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.14 V
+	Maximum Voltage: 1.26 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: None
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 16 GB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x0071, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0043
+	Error Information Handle: 0x0072
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: DIMM
+	Set: None
+	Locator: CPU0_C5D1
+	Bank Locator: CPU0MCU5C5D1
+	Type: Unknown
+	Type Detail: Unknown
+	Speed: Unknown
+	Manufacturer: Array 1 Manufacturer 12
+	Serial Number: Array 1 Serial Number 12
+	Asset Tag: Array 1 Asset Tag 12
+	Part Number: Array 1 Part Number 12
+	Rank: Unknown
+	Configured Memory Speed: Unknown
+	Minimum Voltage: Unknown
+	Maximum Voltage: Unknown
+	Configured Voltage: Unknown
+	Memory Technology: Unknown
+	Memory Operating Mode Capability: Unknown
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Unknown
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: None
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x0073, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0043
+	Error Information Handle: No Error
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 16384 MB
+	Form Factor: DIMM
+	Set: None
+	Locator: CPU0_C6D0
+	Bank Locator: CPU0MCU6C6D0
+	Type: DDR4
+	Type Detail: Registered (Buffered)
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: H0JA00013847DC98AA
+	Asset Tag: 2138                
+	Part Number: M393A2K43DB3-CWE      
+	Rank: 2
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.14 V
+	Maximum Voltage: 1.26 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: None
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 16 GB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x0075, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0043
+	Error Information Handle: 0x0076
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: DIMM
+	Set: None
+	Locator: CPU0_C6D1
+	Bank Locator: CPU0MCU6C6D1
+	Type: Unknown
+	Type Detail: Unknown
+	Speed: Unknown
+	Manufacturer: Array 1 Manufacturer 14
+	Serial Number: Array 1 Serial Number 14
+	Asset Tag: Array 1 Asset Tag 14
+	Part Number: Array 1 Part Number 14
+	Rank: Unknown
+	Configured Memory Speed: Unknown
+	Minimum Voltage: Unknown
+	Maximum Voltage: Unknown
+	Configured Voltage: Unknown
+	Memory Technology: Unknown
+	Memory Operating Mode Capability: Unknown
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Unknown
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: None
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x0077, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0043
+	Error Information Handle: No Error
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 16384 MB
+	Form Factor: DIMM
+	Set: None
+	Locator: CPU0_C7D0
+	Bank Locator: CPU0MCU7C7D0
+	Type: DDR4
+	Type Detail: Registered (Buffered)
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: H0JA00013847DC98BE
+	Asset Tag: 2138                
+	Part Number: M393A2K43DB3-CWE      
+	Rank: 2
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.14 V
+	Maximum Voltage: 1.26 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: None
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 16 GB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x0079, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0043
+	Error Information Handle: 0x0080
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: DIMM
+	Set: None
+	Locator: CPU0_C7D1
+	Bank Locator: CPU0MCU7C7D1
+	Type: Unknown
+	Type Detail: Unknown
+	Speed: Unknown
+	Manufacturer: Array 1 Manufacturer 16
+	Serial Number: Array 1 Serial Number 16
+	Asset Tag: Array 1 Asset Tag 16
+	Part Number: Array 1 Part Number 16
+	Rank: Unknown
+	Configured Memory Speed: Unknown
+	Minimum Voltage: Unknown
+	Maximum Voltage: Unknown
+	Configured Voltage: Unknown
+	Memory Technology: Unknown
+	Memory Operating Mode Capability: Unknown
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Unknown
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: None
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x008C, DMI type 16, 23 bytes
+Physical Memory Array
+	Location: System Board Or Motherboard
+	Use: System Memory
+	Error Correction Type: Multi-bit ECC
+	Maximum Capacity: 4 TB
+	Error Information Handle: No Error
+	Number Of Devices: 16
+
+Handle 0x0092, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x008C
+	Error Information Handle: No Error
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 16384 MB
+	Form Factor: DIMM
+	Set: None
+	Locator: CPU1_C0D0
+	Bank Locator: CPU1MCU0C0D0
+	Type: DDR4
+	Type Detail: Registered (Buffered)
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: H0I20002225176151F
+	Asset Tag: 2222               
+	Part Number: M393A2K43DB3-CWE     
+	Rank: 2
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.14 V
+	Maximum Voltage: 1.26 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: None
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 16 GB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x0095, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x008C
+	Error Information Handle: 0x0097
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: DIMM
+	Set: None
+	Locator: CPU1_C0D1
+	Bank Locator: CPU1MCU0C0D1
+	Type: Unknown
+	Type Detail: Unknown
+	Speed: Unknown
+	Manufacturer: Array 1 Manufacturer 2
+	Serial Number: Array 1 Serial Number 2
+	Asset Tag: Array 1 Asset Tag 2
+	Part Number: Array 1 Part Number 2
+	Rank: Unknown
+	Configured Memory Speed: Unknown
+	Minimum Voltage: Unknown
+	Maximum Voltage: Unknown
+	Configured Voltage: Unknown
+	Memory Technology: Unknown
+	Memory Operating Mode Capability: Unknown
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Unknown
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: None
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x0098, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x008C
+	Error Information Handle: No Error
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 16384 MB
+	Form Factor: DIMM
+	Set: None
+	Locator: CPU1_C1D0
+	Bank Locator: CPU1MCU1C1D0
+	Type: DDR4
+	Type Detail: Registered (Buffered)
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: H0I200022251760F15
+	Asset Tag: 2222               
+	Part Number: M393A2K43DB3-CWE     
+	Rank: 2
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.14 V
+	Maximum Voltage: 1.26 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: None
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 16 GB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x009B, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x008C
+	Error Information Handle: 0x009D
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: DIMM
+	Set: None
+	Locator: CPU1_C1D1
+	Bank Locator: CPU1MCU1C1D1
+	Type: Unknown
+	Type Detail: Unknown
+	Speed: Unknown
+	Manufacturer: Array 1 Manufacturer 4
+	Serial Number: Array 1 Serial Number 4
+	Asset Tag: Array 1 Asset Tag 4
+	Part Number: Array 1 Part Number 4
+	Rank: Unknown
+	Configured Memory Speed: Unknown
+	Minimum Voltage: Unknown
+	Maximum Voltage: Unknown
+	Configured Voltage: Unknown
+	Memory Technology: Unknown
+	Memory Operating Mode Capability: Unknown
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Unknown
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: None
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x009E, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x008C
+	Error Information Handle: No Error
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 16384 MB
+	Form Factor: DIMM
+	Set: None
+	Locator: CPU1_C2D0
+	Bank Locator: CPU1MCU2C2D0
+	Type: DDR4
+	Type Detail: Registered (Buffered)
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: H0JA00013847DC8C60
+	Asset Tag: 2138               
+	Part Number: M393A2K43DB3-CWE     
+	Rank: 2
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.14 V
+	Maximum Voltage: 1.26 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: None
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 16 GB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x00A1, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x008C
+	Error Information Handle: 0x00A3
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: DIMM
+	Set: None
+	Locator: CPU1_C2D1
+	Bank Locator: CPU1MCU2C2D1
+	Type: Unknown
+	Type Detail: Unknown
+	Speed: Unknown
+	Manufacturer: Array 1 Manufacturer 6
+	Serial Number: Array 1 Serial Number 6
+	Asset Tag: Array 1 Asset Tag 6
+	Part Number: Array 1 Part Number 6
+	Rank: Unknown
+	Configured Memory Speed: Unknown
+	Minimum Voltage: Unknown
+	Maximum Voltage: Unknown
+	Configured Voltage: Unknown
+	Memory Technology: Unknown
+	Memory Operating Mode Capability: Unknown
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Unknown
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: None
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x00A4, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x008C
+	Error Information Handle: No Error
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 16384 MB
+	Form Factor: DIMM
+	Set: None
+	Locator: CPU1_C3D0
+	Bank Locator: CPU1MCU3C3D0
+	Type: DDR4
+	Type Detail: Registered (Buffered)
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: H0JA00013847DC8CE1
+	Asset Tag: 2138               
+	Part Number: M393A2K43DB3-CWE     
+	Rank: 2
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.14 V
+	Maximum Voltage: 1.26 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: None
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 16 GB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x00A7, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x008C
+	Error Information Handle: 0x00A9
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: DIMM
+	Set: None
+	Locator: CPU1_C3D1
+	Bank Locator: CPU1MCU3C3D1
+	Type: Unknown
+	Type Detail: Unknown
+	Speed: Unknown
+	Manufacturer: Array 1 Manufacturer 8
+	Serial Number: Array 1 Serial Number 8
+	Asset Tag: Array 1 Asset Tag 8
+	Part Number: Array 1 Part Number 8
+	Rank: Unknown
+	Configured Memory Speed: Unknown
+	Minimum Voltage: Unknown
+	Maximum Voltage: Unknown
+	Configured Voltage: Unknown
+	Memory Technology: Unknown
+	Memory Operating Mode Capability: Unknown
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Unknown
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: None
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x00AA, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x008C
+	Error Information Handle: No Error
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 16384 MB
+	Form Factor: DIMM
+	Set: None
+	Locator: CPU1_C4D0
+	Bank Locator: CPU1MCU4C4D0
+	Type: DDR4
+	Type Detail: Registered (Buffered)
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: H0I200022251761524
+	Asset Tag: 2222               
+	Part Number: M393A2K43DB3-CWE     
+	Rank: 2
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.14 V
+	Maximum Voltage: 1.26 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: None
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 16 GB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x00AD, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x008C
+	Error Information Handle: 0x00AF
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: DIMM
+	Set: None
+	Locator: CPU1_C4D1
+	Bank Locator: CPU1MCU4C4D1
+	Type: Unknown
+	Type Detail: Unknown
+	Speed: Unknown
+	Manufacturer: Array 1 Manufacturer 10
+	Serial Number: Array 1 Serial Number 10
+	Asset Tag: Array 1 Asset Tag 10
+	Part Number: Array 1 Part Number 10
+	Rank: Unknown
+	Configured Memory Speed: Unknown
+	Minimum Voltage: Unknown
+	Maximum Voltage: Unknown
+	Configured Voltage: Unknown
+	Memory Technology: Unknown
+	Memory Operating Mode Capability: Unknown
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Unknown
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: None
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x00B0, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x008C
+	Error Information Handle: No Error
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 16384 MB
+	Form Factor: DIMM
+	Set: None
+	Locator: CPU1_C5D0
+	Bank Locator: CPU1MCU5C5D0
+	Type: DDR4
+	Type Detail: Registered (Buffered)
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: H0I2000222517616E5
+	Asset Tag: 2222                
+	Part Number: M393A2K43DB3-CWE      
+	Rank: 2
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.14 V
+	Maximum Voltage: 1.26 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: None
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 16 GB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x00B3, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x008C
+	Error Information Handle: 0x00B5
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: DIMM
+	Set: None
+	Locator: CPU1_C5D1
+	Bank Locator: CPU1MCU5C5D1
+	Type: Unknown
+	Type Detail: Unknown
+	Speed: Unknown
+	Manufacturer: Array 1 Manufacturer 12
+	Serial Number: Array 1 Serial Number 12
+	Asset Tag: Array 1 Asset Tag 12
+	Part Number: Array 1 Part Number 12
+	Rank: Unknown
+	Configured Memory Speed: Unknown
+	Minimum Voltage: Unknown
+	Maximum Voltage: Unknown
+	Configured Voltage: Unknown
+	Memory Technology: Unknown
+	Memory Operating Mode Capability: Unknown
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Unknown
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: None
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x00B6, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x008C
+	Error Information Handle: No Error
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 16384 MB
+	Form Factor: DIMM
+	Set: None
+	Locator: CPU1_C6D0
+	Bank Locator: CPU1MCU6C6D0
+	Type: DDR4
+	Type Detail: Registered (Buffered)
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: H0EN00013947EB2597
+	Asset Tag: 2139                
+	Part Number: M393A2K43DB3-CWE      
+	Rank: 2
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.14 V
+	Maximum Voltage: 1.26 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: None
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 16 GB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x00B9, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x008C
+	Error Information Handle: 0x00BB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: DIMM
+	Set: None
+	Locator: CPU1_C6D1
+	Bank Locator: CPU1MCU6C6D1
+	Type: Unknown
+	Type Detail: Unknown
+	Speed: Unknown
+	Manufacturer: Array 1 Manufacturer 14
+	Serial Number: Array 1 Serial Number 14
+	Asset Tag: Array 1 Asset Tag 14
+	Part Number: Array 1 Part Number 14
+	Rank: Unknown
+	Configured Memory Speed: Unknown
+	Minimum Voltage: Unknown
+	Maximum Voltage: Unknown
+	Configured Voltage: Unknown
+	Memory Technology: Unknown
+	Memory Operating Mode Capability: Unknown
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Unknown
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: None
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x00BC, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x008C
+	Error Information Handle: No Error
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 16384 MB
+	Form Factor: DIMM
+	Set: None
+	Locator: CPU1_C7D0
+	Bank Locator: CPU1MCU7C7D0
+	Type: DDR4
+	Type Detail: Registered (Buffered)
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: H0JA00013847DC8CB5
+	Asset Tag: 2138                
+	Part Number: M393A2K43DB3-CWE      
+	Rank: 2
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.14 V
+	Maximum Voltage: 1.26 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: None
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 16 GB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x00BF, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x008C
+	Error Information Handle: 0x00C1
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: DIMM
+	Set: None
+	Locator: CPU1_C7D1
+	Bank Locator: CPU1MCU7C7D1
+	Type: Unknown
+	Type Detail: Unknown
+	Speed: Unknown
+	Manufacturer: Array 1 Manufacturer 16
+	Serial Number: Array 1 Serial Number 16
+	Asset Tag: Array 1 Asset Tag 16
+	Part Number: Array 1 Part Number 16
+	Rank: Unknown
+	Configured Memory Speed: Unknown
+	Minimum Voltage: Unknown
+	Maximum Voltage: Unknown
+	Configured Voltage: Unknown
+	Memory Technology: Unknown
+	Memory Operating Mode Capability: Unknown
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Unknown
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: None
+	Cache Size: None
+	Logical Size: None
+
