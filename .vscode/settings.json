@@ -1,5 +1,18 @@
 {
     "cSpell.words": [
-        "nodeid"
+        "bynodeid",
+        "cpubind",
+        "cpus",
+        "idxmin",
+        "iloc",
+        "iterrows",
+        "kmeans",
+        "levelname",
+        "membind",
+        "mxps",
+        "nodeid",
+        "numactl",
+        "txflit",
+        "usecols"
     ]
 }
