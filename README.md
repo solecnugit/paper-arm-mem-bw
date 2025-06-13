@@ -9,7 +9,10 @@ This repository contains the data and scripts for the paper
 
 The structure of this repository is as follows: 
 
-- `figures` scripts for generating figures in the paper
+- `data`
+  - `perf.data.stream` The raw event counts for monitoring data traffic when running STREAM on Ampere Altra
+- `figures` figures and the scripts for generating them in the paper 
   - `sw_hw_bw_stream.ipynb` Fig. 2. Comparison of Software and Hardware Memory Bandwidth of STREAM
+  - `clustering_data_traffic` Fig. 7. $k$-Means Clustering for Device Port Data Traffic of STREAM on Ampere Altra
 
 ...
