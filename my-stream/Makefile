@@ -1,9 +1,6 @@
 CC = gcc
 CFLAGS = -O3 -fopenmp -mtune=native -march=native -mcmodel=large -DSTREAM_ARRAY_SIZE=640000000 -DNTIMES=100
 
-stream_c.exe: stream.c
-	$(CC) $(CFLAGS) stream.c -o stream_c.exe
-
 stream_copy: stream.c
 	$(CC) $(CFLAGS) stream.c -o stream_copy
 

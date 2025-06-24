@@ -10,11 +10,13 @@ This repository contains the data and scripts for the paper
 The structure of this repository is as follows: 
 
 - `scripts`
-  - `data_collect` Configs and scripts to run SPEC CPU 2017 while collecting performance data, including different memory bandwidth measurement methods: 
+  - `data_collect` configs and scripts to run SPEC CPU 2017 while collecting performance data, including different memory bandwidth measurement methods: 
     - `mem_bw_watchpoint.cfg` based on network-on-chip traffic monitoring via Watchpoint from Arm CMN PMUs
     - `mem_bw_mc.cfg` based on memory controller (Arm DMC-620) PMUs
     - `mem_bw_mr.cfg` based on memory requests from Arm CMN PMUs
     - `mem_bw_llc.cfg` based on LLC misses from Arm CMN PMUs 
+- `src`
+  - `my_stream` modified and instrumented STREAM source code for comparing software and hardware memory bandwidth
 - `data`
   - `spec_cpu` the raw event counts from Linux perf, in CSV
     - `watchpoint`

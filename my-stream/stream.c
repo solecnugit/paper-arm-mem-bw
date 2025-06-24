@@ -1,12 +1,54 @@
+/*-----------------------------------------------------------------------*/
+/* Program: STREAM                                                       */
+/* Revision: $Id: stream.c,v 5.10 2013/01/17 16:01:06 mccalpin Exp mccalpin $ */
+/* Original code developed by John D. McCalpin                           */
+/* Programmers: John D. McCalpin                                         */
+/*              Joe R. Zagar                                             */
+/*                                                                       */
+/* This program measures memory transfer rates in MB/s for simple        */
+/* computational kernels coded in C.                                     */
+/*-----------------------------------------------------------------------*/
+/* Copyright 1991-2013: John D. McCalpin                                 */
+/*-----------------------------------------------------------------------*/
+/* License:                                                              */
+/*  1. You are free to use this program and/or to redistribute           */
+/*     this program.                                                     */
+/*  2. You are free to modify this program for your own use,             */
+/*     including commercial use, subject to the publication              */
+/*     restrictions in item 3.                                           */
+/*  3. You are free to publish results obtained from running this        */
+/*     program, or from works that you derive from this program,         */
+/*     with the following limitations:                                   */
+/*     3a. In order to be referred to as "STREAM benchmark results",     */
+/*         published results must be in conformance to the STREAM        */
+/*         Run Rules, (briefly reviewed below) published at              */
+/*         http://www.cs.virginia.edu/stream/ref.html                    */
+/*         and incorporated herein by reference.                         */
+/*         As the copyright holder, John McCalpin retains the            */
+/*         right to determine conformity with the Run Rules.             */
+/*     3b. Results based on modified source code or on runs not in       */
+/*         accordance with the STREAM Run Rules must be clearly          */
+/*         labelled whenever they are published.  Examples of            */
+/*         proper labelling include:                                     */
+/*           "tuned STREAM benchmark results"                            */
+/*           "based on a variant of the STREAM benchmark code"           */
+/*         Other comparable, clear, and reasonable labelling is          */
+/*         acceptable.                                                   */
+/*     3c. Submission of results to the STREAM benchmark web site        */
+/*         is encouraged, but not required.                              */
+/*  4. Use of this program or creation of derived works based on this    */
+/*     program constitutes acceptance of these licensing restrictions.   */
+/*  5. Absolutely no warranty is expressed or implied.                   */
+/*-----------------------------------------------------------------------*/
+#include <stdio.h>
+#include <unistd.h> /* syscall function */
+#include <math.h>
 #include <float.h>
 #include <limits.h>
-#include <math.h>
-
 #include <sys/time.h>
 
 #include <dirent.h>
 #include <errno.h>
-#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
@@ -14,7 +56,6 @@
 #include <sys/ioctl.h>   /* ioctl function */
 #include <sys/syscall.h> /* Definition of SYS_* constants */
 #include <sys/types.h>
-#include <unistd.h> /* syscall function */
 
 #include <inttypes.h>
 
@@ -69,8 +110,13 @@ static char *label = "Add";
 static char *label = "Triad";
 #endif
 
+/* MODIFIED:
+The flag at compile time determines which kernel to be executed. 
+Unlike the original STREAM, only one kernel is tested in one run.
+*/
+// for copy and scale
 #if defined(COPY) || defined(SCALE)
-static double bytes = 2 * sizeof(STREAM_TYPE) * STREAM_ARRAY_SIZE;
+static double bytes = 2.0 * sizeof(STREAM_TYPE) * STREAM_ARRAY_SIZE;
 // for add and triad
 #elif defined(ADD) || defined(TRIAD)
 static double bytes = 3.0 * sizeof(STREAM_TYPE) * STREAM_ARRAY_SIZE;
@@ -80,16 +126,16 @@ int checktick();
 double mysecond();
 void checkSTREAMresults();
 
-// latency
-void print_latency();
+/* MODIFIED: remove marco TUNED */
 
 #ifdef _OPENMP
 extern int omp_get_num_threads();
 #endif
 
-double start_time, end_time;
+double start_time, end_time;    // only the timestamps of the start and the end need to be recorded 
 
-// Executes perf_event_open syscall and makes sure it is successful or exit
+/* NEW: Add helper functions for the instrumentation based on perf_event_open system call */
+// 1. A wrapper for perf_event_open
 static long perf_event_open(struct perf_event_attr *hw_event, pid_t pid,
                             int cpu, int group_fd, unsigned long flags) {
     int fd;
@@ -102,7 +148,7 @@ static long perf_event_open(struct perf_event_attr *hw_event, pid_t pid,
     return fd;
 }
 
-// Helper function to setup a perf event structure perf_event_attr
+// 2. Setup a perf event structure perf_event_attr
 void configure_dmc620_event(struct perf_event_attr *pe, uint32_t type,
                             uint event, uint clkdiv2, uint mask, uint match) {
     memset(pe, 0, sizeof(struct perf_event_attr));
@@ -126,10 +172,10 @@ int main(int argc, char *argv[]) {
     int k;
     ssize_t j;
     STREAM_TYPE scalar;
-    double t;
+    double t;    /* MODIFIED: the interval of the timestamps */
 
-    // perf event
-    char *devices[MAX_DEVICES];
+    /* MODIFIED: setup for the instrumentation based on perf_event_open */
+    char *devices[MAX_DEVICES];    // Arm DMC-620 devices
     int types[MAX_DEVICES];
     int device_count = 0;
 
@@ -301,9 +347,14 @@ int main(int argc, char *argv[]) {
 
     scalar = 3.0;
     for (k = 0; k < NTIMES; k++) {
+        
+        /* MODIFIED:
+        1. Based on the flag at compile, determine which kernel to be executed in parallel
+        2. Use perf_event_open for instrumentation to get hardware memory bandwidth from hardware performance counters in Arm DMC-620
+        */
         if (k == 1) {
             start_time = mysecond();
-            // Start counting
+            // Start counting (excluding the first iteration)
             for (int i = 0; i < 2 * device_count; i++)
                 ioctl(fd[i], PERF_EVENT_IOC_ENABLE, 0);
         }
