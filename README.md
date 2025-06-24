@@ -17,6 +17,8 @@ The structure of this repository is as follows:
     - `mem_bw_llc.cfg` based on LLC misses from Arm CMN PMUs 
 - `src`
   - `my_stream` modified and instrumented STREAM source code for comparing software and hardware memory bandwidth
+  - `dmc620.py` to generate Linux perf command for measuring memory bandwidth via Arm DMC-620 PMUs
+  - `watchpoint.py` to generate Linux perf command for measuring memory bandwidth based on Watchpoint 
 - `data`
   - `spec_cpu` the raw event counts from Linux perf, in CSV
     - `watchpoint`
